@@ -29,13 +29,13 @@
 #include <iostream>
 
 //Define buttons
-#define PLAY_BUTTON // Write your value here
-#define STOP_BUTTON // Write your value here
+#define PLAY_BUTTON 0// Write your value here
+#define STOP_BUTTON 2// Write your value here
 #define BUFFER_SIZE 1000
 
 //SPI Settings
-#define SPI_CHAN // Write your value here
-#define SPI_SPEED // Write your value here
+#define SPI_CHAN 0// Using channel 0
+#define SPI_SPEED 250000// 16kHz x 16 bits x 1 x 8/5
 
 //Filename
 #define FILENAME "src/sound_16k_8bit.raw"
