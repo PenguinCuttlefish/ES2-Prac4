@@ -35,7 +35,7 @@ void play_pause_isr(void){
     long interruptTime = millis();
     
 	if (interruptTime - lastInterruptTime>200){
-		printf("Interrupt play/pause triggered");
+		printf("Interrupt play/pause triggered ");
         if(playing == true){
             playing = false;
         }else{
